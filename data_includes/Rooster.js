@@ -84,7 +84,7 @@ var items = [
 
     ['practice', Message, {consentRequired: false,
                        html: ["div",
-                               ["p", "How was that? It is important that you move through the sentence carefully and deliberately, making sure that you understand each word as you go."],
+                               ["p", "How was that? It is important that you move through the sentence carefully and deliberately, making sure that you understand each word and create a mental picture as you go."],
                                ["p", "Let's try some more."]
                              ]}],
 
@@ -107,7 +107,7 @@ var items = [
 
     ['practice', Message, {consentRequired: false,
                        html: ["div", 
-                               ["p", "All right, that's it for practice! If you got any wrong, that's OK. Just be sure to read naturally but carefully, making sure you understand each word as you go. Click below when you're ready to begin."]
+                               ["p", "All right, that's it for practice! If you got any wrong, that's OK. Just be sure to read naturally but carefully, making sure you understand each word and create a mental picture as you go. Click below when you're ready to begin."]
                             ]}],
 
     ['introSep', "Separator", {transfer: 4000, normalMessage: "Hands in place! Your first sentence of this block will start soon."}],
@@ -1371,7 +1371,7 @@ var items = [
                                                         Separator, {transfer: 1000, normalMessage: "+", ignoreFailure: true}],
     [["Rooster-ExpV-Stative-ActS-ActQ-AdverbQ-AnsR", 20], Separator, {transfer: 1000, normalMessage: "+"},
                                                         sentence, {s: "That's the editor that the journalist somewhat depresses despite his upbeat personality."},
-                                                        question, {q: "How much does the journalist depress the editor?", as: [["f", "hugely"], ["j", "to an extent"]], hasCorrect: 1},
+                                                        question, {q: "How much does the journalist depress the editor?", as: [["f", "hugely"], ["j", "to an extent"]], hasCorrect: 1}
                                                         Separator, {transfer: 1000, normalMessage: "+", ignoreFailure: true}],
     [["Rooster-ExpV-Eventive-ActS-ActQ-AdverbQ-AnsR", 20], Separator, {transfer: 1000, normalMessage: "+"},
                                                         sentence, {s: "That's the editor that the journalist accidentally depresses despite his upbeat personality."},
